@@ -27,7 +27,7 @@ import org.apache.log4j.Appender;
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Logger;
 
-// Main class
+// Main class of the benchmark
 public class ZooKeeperBenchmark {
 	private int _totalOps; // total operations requested by user
 	private AtomicInteger _currentTotalOps; // possibly increased # of ops so test last for requested time
